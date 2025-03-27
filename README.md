@@ -46,7 +46,7 @@ Desktop Activity Tracker is an Electron-based application that combines usage tr
 2. Navigate to the project directory:
 
     ```
-    cd desktop-activity-tracker
+    cd activity-media-capture
     ```
 
 3. Install dependencies:
