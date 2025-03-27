@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-import "./UsageTracker.css";
+import "./stylesheets/App.css";
+import "./stylesheets/UsageTracker.css";
 import {
     BrowserRouter as Router,
     Routes,
@@ -10,14 +10,12 @@ import {
 import AudioCapture from "./AudioCapture.jsx";
 import ScreenCapture from "./ScreenCapture.jsx";
 import UsageTracker from "./UsageTracker.jsx";
-import ActivityTracker from "./ActivityTracker.jsx";
 
 class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
                 <Routes>
-                    {/* <Route path="/" element={<ActivityTracker />} /> */}
                     <Route path="/" element={<UsageTracker />} />
                     <Route path="/screencapture" element={<ScreenCapture />} />
                     <Route path="/audiocapture" element={<AudioCapture />} />
